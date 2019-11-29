@@ -187,7 +187,7 @@ ZmqMsg MessageHandler(
       ParseZmqMessage(dataStr, components);
       
       // Interpret data.
-      InterpretZmqMessage(&pushSocket, components);
+      InterpretZmqMessage(pushSocket, components);
       
       // Construct response.
       string id = components[0];

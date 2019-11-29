@@ -1,5 +1,7 @@
 # MetaTrader 4 Bridge
 
+- Install Metatrader 4: https://www.liteforex.com/downloads/mt4/
+
 This projects create a request/reply communication layer between [MetaTrader 4](https://www.metatrader4.com/) and your application.
 
 The communication is currently exchanged with [ZeroMQ](http://zeromq.org/) (this could be extended to support more protocols in the future).
